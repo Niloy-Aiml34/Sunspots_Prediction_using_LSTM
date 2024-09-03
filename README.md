@@ -1,3 +1,4 @@
+![Sunspot Animation](http://i.imgur.com/NVN9eOK.gif?1)
 # Sunspot Time Series Forecasting with LSTM
 
 This project involves the use of Long Short-Term Memory (LSTM) networks for the prediction of sunspots based on historical time series data. The objective is to model the complex patterns within the dataset to make accurate future predictions.
