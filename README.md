@@ -1,57 +1,56 @@
-# Sunspots Prediction using Machine Learning
+# Sunspot Time Series Forecasting with LSTM
+
+This project involves the use of Long Short-Term Memory (LSTM) networks for the prediction of sunspots based on historical time series data. The objective is to model the complex patterns within the dataset to make accurate future predictions.
 
 ## Project Overview
 
-This project uses machine learning algorithms to predict sunspot activity. Sunspots are dark regions on the surface of the sun that can affect Earth's magnetic field, causing disruptions to communication and navigation systems.
+### 1. Understanding Sunspots
+A comprehensive introduction to sunspots, their importance in solar physics, and the relevance of predicting their occurrence.
 
-## Notebook Description
+### 2. Dataset Exploration
+An initial exploration of the sunspot dataset, including key statistical analyses and visualizations to understand underlying trends and seasonality.
 
-This Jupyter Notebook (`spml0922.ipynb`) contains the code and analysis for the sunspots prediction project. The notebook covers:
+### 3. Sequence Models for Time Series Data
+A detailed introduction to sequence models, with a focus on LSTM networks, and their suitability for time series forecasting tasks.
 
-* Data preprocessing and exploration
-* Feature engineering and selection
-* Model training and evaluation
-* Hyperparameter tuning and optimization
+### 4. Data Preparation
+Custom functions and techniques are employed to preprocess the dataset, generate sequences, and prepare the data for model training and evaluation.
 
-## Dataset
+### 5. Huber Loss Function
+Discussion on the choice of the Huber loss function, balancing the trade-off between mean squared error and mean absolute error, and its implementation in the model.
 
-The dataset used in this project is [insert dataset name], which contains [insert dataset description].
+### 6. Model Development & Learning Rate Optimization
+Construction of the LSTM model architecture, followed by a systematic approach to finding the optimal learning rate for model training.
 
-## Algorithms Used
+### 7. Model Training
+Training the LSTM model using the optimal learning rate and monitoring performance metrics to prevent overfitting and underfitting.
 
-* [Insert algorithm 1, e.g. Linear Regression]
-* [Insert algorithm 2, e.g. Decision Trees]
-* [Insert algorithm 3, e.g. Random Forest]
+### 8. Results & Predictions
+Presentation of the model’s performance on the validation set, including visualizations of the predicted versus actual sunspot counts.
 
-## Results
+### 9. Future Work
+Suggestions for further exploration, including potential improvements in model architecture, alternative sequence models, and hyperparameter tuning.
 
-The results of this project show [insert results, e.g. "an accuracy of 90% in predicting sunspot activity"].
+## Key Results
+- **Model Used**: LSTM Network
+- **Validation Mean Absolute Error (MAE)**: 13.122861862182617
 
-## Usage
+## Visual Insights
+![Sunspot Prediction Results](path/to/your/image.png)
 
-To use this notebook, simply clone this repository and open the `spml0922.ipynb` file in Jupyter Notebook. Make sure to install the required libraries and dependencies listed in the notebook.
+*Figure: Predicted versus actual sunspot counts visualized over the test period.*
 
-### Requirements
+## Getting Started
 
-* Python 3.x
-* Jupyter Notebook
-* [Insert required libraries, e.g. pandas, numpy, scikit-learn]
+### Prerequisites
+Ensure that the following dependencies are installed:
+- Python 3.x
+- TensorFlow
+- NumPy
+- Pandas
+- Matplotlib
 
-### Installation
-
-1. Clone this repository: `git clone https://github.com/Spartificial/yt-acad-projs.git`
-2. Navigate to the project directory: `cd yt-acad-projs`
-3. Install the required libraries: `pip install -r requirements.txt`
-4. Open the notebook: `jupyter notebook spml0922.ipynb`
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please fork this repository and submit a pull request.
-
-## License
-
-This project is licensed under the [insert license, e.g. MIT License].
-
-## Acknowledgments
-
-This project was inspired by [insert inspiration, e.g. a research paper or a similar project]. Special thanks to [insert names] for their contributions and feedback.
+### Running the Notebook
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Spartificial/yt-acad-projs.git
