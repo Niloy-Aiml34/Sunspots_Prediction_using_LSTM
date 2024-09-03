@@ -37,7 +37,7 @@ Suggestions for further exploration, including potential improvements in model a
 - **Validation Mean Absolute Error (MAE)**: 13.122861862182617
 
 ## Visual Insights
-![Sunspot Prediction Results](path/to/your/image.png)
+![Sunspot Prediction Results]([path/to/your/image.png](https://github.com/Niloy-Aiml34/Sunspots_Prediction/blob/main/predictionVSvalidation.png))
 
 *Figure: Predicted versus actual sunspot counts visualized over the test period.*
 
