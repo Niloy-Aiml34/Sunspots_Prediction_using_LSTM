@@ -55,4 +55,4 @@ Ensure that the following dependencies are installed:
 ### Running the Notebook
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Spartificial/yt-acad-projs.git
+   git clone https://github.com/Niloy-Aiml34/Sunspots_Prediction_using_LSTM
