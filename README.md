@@ -1,5 +1,6 @@
-![Sunspot Animation](http://i.imgur.com/NVN9eOK.gif?1)
 # Sunspot Time Series Forecasting with LSTM
+
+<img src="http://i.imgur.com/NVN9eOK.gif?1" alt="Sunspot Animation" width="500"/>
 
 This project involves the use of Long Short-Term Memory (LSTM) networks for the prediction of sunspots based on historical time series data. The objective is to model the complex patterns within the dataset to make accurate future predictions.
 
@@ -37,7 +38,7 @@ Suggestions for further exploration, including potential improvements in model a
 - **Validation Mean Absolute Error (MAE)**: 13.122861862182617
 
 ## Visual Insights
-![Sunspot Prediction Results]([path/to/your/image.png](https://github.com/Niloy-Aiml34/Sunspots_Prediction/blob/main/predictionVSvalidation.png))
+![Sunspot Prediction Results](https://github.com/Niloy-Aiml34/Sunspots_Prediction/blob/main/predictionVSvalidation.png)
 
 *Figure: Predicted versus actual sunspot counts visualized over the test period.*
 
